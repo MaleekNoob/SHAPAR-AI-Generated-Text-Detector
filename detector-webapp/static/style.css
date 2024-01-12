@@ -99,6 +99,14 @@ textarea {
   left: 430px;
 }
 
+.slide .response {
+    position: absolute;
+    width: 1060px;
+    height: 577px;
+    top: 262px;
+    left: 430px;
+  }
+
 .slide .text-wrapper-2 {
   position: absolute;
   top: -1px;

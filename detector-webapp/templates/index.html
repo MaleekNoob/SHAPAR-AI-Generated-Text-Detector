@@ -41,7 +41,7 @@
               </p>
             </div>
             <div class="div">
-              <div class="text-wrapper-2">AI Text Detector</div>
+              <div class="text-wrapper-2">AIonAir {{name}}</div>  
               <div class="div-wrapper">
                 <div class="text-wrapper-3" onclick="promptName()">Check</div>
               </div>
@@ -65,8 +65,8 @@
       function promptName() {
         var user_prompt = document.getElementsByName("name")[0].value;
         window.location.href = "/" + user_prompt;
-        var message = document.getElementsByClassName("text-wrapper-2")[0];
-        message.innerHTML = name;
+        var message = document.getElementsByClassName("text-wrapper-2");
+        // message.innerHTML = "";
       }
       function updateCharacterCount(textarea) {
         var charCountElement = document.getElementById("charCount");
